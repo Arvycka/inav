@@ -181,6 +181,6 @@
 #define TARGET_IO_PORTC         0xffff
 #define TARGET_IO_PORTD         (BIT(2))
 
-#define MAX_PWM_OUTPUT_PORTS       9
+#define MAX_PWM_OUTPUT_PORTS       10 //Add one more PWM port
 
 #define PCA9685_I2C_BUS         BUS_I2C2
