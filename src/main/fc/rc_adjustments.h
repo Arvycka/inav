@@ -22,7 +22,7 @@
 #include "fc/rc_controls.h"
 #include "fc/rc_modes.h"
 
-//#define USE_INFLIGHT_PROFILE_ADJUSTMENT - not currently enabled
+#define USE_INFLIGHT_PROFILE_ADJUSTMENT
 
 typedef enum {
     ADJUSTMENT_NONE                     = 0,
